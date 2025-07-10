@@ -24,27 +24,31 @@ button {
     font-size: 25px;
     border-radius: 10px;
     transition: 0.4s;
-    color: rgb(195, 195, 195);
+    color: rgb(233, 233, 233);
     text-transform: uppercase;
+    background-color: #333;
+    font-weight: bold;
 
 }
 
-#botaoMostrar {
+/* #botaoMostrar {
     background-color: #0ac300;
     border: solid 2px #03b300;
 }
 #botaoEsconder {
     background-color: #c31d00;
     border: solid 2px #b33900;
-}
+} */
 #botaoEsconder:hover {
-    background-color: #dc1f02;
-    border: solid 2px #d10f01;
+    background-color: #341616;
+    border: solid 2px #341616;
+    box-shadow: 0px 0px 50px rgb(128, 0, 0);
 }
 
 #botaoMostrar:hover {
-    background-color: #10d002;
-    border: solid 2px #04c501;
+    background-color: #203f22;
+    border: solid 2px #203f22;
+    box-shadow: 0px 0px 50px rgb(10, 114, 0);
 }
 
 button:hover {
@@ -78,5 +82,4 @@ button:hover {
 
 .content .texto {
     display: none;
-;
 }
